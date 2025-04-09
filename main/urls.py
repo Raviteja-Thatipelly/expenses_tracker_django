@@ -8,4 +8,5 @@ urlpatterns = [
     path('wallet/',views.wallet,name='wallet'),
     path('investment/',views.investment,name='investment'),
     path('stocksFund/',views.stock_fund,name='stocksFund'),
+    path('notification', views.notification, name='notification')
 ]

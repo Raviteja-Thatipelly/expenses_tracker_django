@@ -19,3 +19,6 @@ def investment(request):
 
 def stock_fund(request):
     return render(request, 'stocksFund.html')
+
+def notification(request):
+    return render(request, 'notification.html')
